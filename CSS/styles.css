@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #013241;
+    color: #c4e2e0;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0;
+    padding-top: 30px;
+    align-items: flex-end;
+}
+
+header img{
+    height: 55px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    border: 1px solid #c4e2e0;
+}
+
+header nav ul li{
+    width: 90px;
+    text-align: center;
+    height: 100%;
+    padding: 8px 5px;
+}
+
+.selectedMenu{
+    background-color: #c4e2e0;
+    color: #013241;
+}
+
+
+main{
+    background-color: #fcfffc;
+
+}
+
+.main__cover{
+    background-color: #e6e6e6;
+}
+
+.billboard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.billboard h1{
+    margin: 20px;
+    font-size: 29px;
+}
+
+.billboard img{
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.grid{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+
+.grid__feature img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.grid__feature h2{
+    position: relative;
+    bottom: 15%;
+    background-color: #808080;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.blog{
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog__article{
+    width: 300px;
+    margin: 10px 0 20px;
+}
+
+.blog__article h2{
+    color: #9f9f9f;
+    font-size: 18px;
+}
+
+.blog__article p{
+    text-align: justify;
+}
+
+
+footer{
+    height: 60px;
+    background-color: #024f66;
+    color: #fcfffc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
